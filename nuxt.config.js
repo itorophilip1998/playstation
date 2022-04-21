@@ -94,7 +94,7 @@ export default {
       useWebmanifestExtension: false,
       description: 'Playstation',
       background_color: 'white',
-      theme_color: '#4169e1',
+      theme_color: '##fd7e14',
       splash_pages: '/',
     },
   },
@@ -104,7 +104,7 @@ export default {
   loadingIndicator: {
     name: 'circle',
     color: 'white',
-    background: '#4169e1',
+    background: '##fd7e14',
   },
   loading: '~/components/LoadingBar.vue',
 }

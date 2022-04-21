@@ -54,7 +54,7 @@ ul > li:hover,
 }
 
 .card-img-top {
-  height: 140px !important;
+  height: 200px !important;
 }
 input,
 textarea,
@@ -76,4 +76,3 @@ select {
 .rounded-x {
   border-radius: 10px;
 }
- 
