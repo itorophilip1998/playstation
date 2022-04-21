@@ -61,6 +61,6 @@ export default {
   width: 30% !important;
 }
 .infoText {
-  font-size: 20px;
+  font-size: 13px;
 }
 </style>

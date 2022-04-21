@@ -2,17 +2,17 @@
   <div class="bg-light">
     <Header :info="info" />
 
-    <div class="name shadow w-75 p-2 text-center bg-white">
+    <div class="name shadow w-75 mb-4 p-2 text-center bg-white">
       <span
         ><input
           type="text"
-          class="w-100 border-none"
-          placeholder="🍳 Dashboard Search"
+          class="w-100 border-none p-2 mt-1"
+          placeholder="🍳  Search your device here.."
         />
       </span>
     </div>
 
-    <div class="dashboard-header mt-5">
+    <div class="dashboard-header mt-5 pt-4">
       <!-- Applied -->
       <h6 class="font-weight-bold pl-1">
         Order Your Play Devices
