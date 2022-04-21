@@ -15,6 +15,21 @@
       <p class="text-white text-center infoText">
         {{ info.details }}
       </p>
+      <p class="text-center">
+        <button
+          @click="loadPay()"
+          type="button"
+          class="btn btn-outline-light specialBtn btn-sm mx-1"
+        >
+          Fund
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-light specialBtn btn-sm mx-1"
+        >
+          Withdraw
+        </button>
+      </p>
     </div>
   </div>
 </template>
@@ -27,10 +42,17 @@ export default {
       list: localStorage.length ? localStorage.length - 1 : '',
     }
   },
-  methods: {},
+  methods: {
+    loadPay() {
+      location.href = 'https://paystack.com/pay/mu2lb17l6x'
+    },
+  },
 }
 </script>
 <style>
+.specialBtn {
+  width: 90px;
+}
 .l-0 {
   position: absolute;
   right: 3px;

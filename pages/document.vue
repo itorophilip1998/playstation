@@ -111,7 +111,7 @@ export default {
       const newWallet = oldWallet - total
       const items = localStorage.setItem(`wallet`, newWallet)
       localStorage.clear()
-      this.$router.push('/dashboard')
+      this.$router.push('/')
     },
     upload() {
       const token = localStorage.getItem('token')
