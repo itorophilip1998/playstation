@@ -10,17 +10,11 @@
         <i class="fa fa-cart-plus" aria-hidden="true"></i
       ></nuxt-link>
 
-      <h5 class="text-white text-center">{{ info.short_name }}</h5>
-      <div class="p-2 text-center" v-if="info.dashboard"></div>
-      <p class="text-white text-center" v-if="!info.dashboard">
+      <h2 class="text-white text-center">{{ info.short_name }}</h2>
+
+      <p class="text-white text-center infoText">
         {{ info.details }}
       </p>
-      <div
-        class="name shadow w-75 p-2 text-center text-dark"
-        v-if="!info.dashboard"
-      >
-        {{ info.name }} <i :class="`fa  ml-2 ${info.icon}`"></i>
-      </div>
     </div>
   </div>
 </template>
@@ -65,5 +59,8 @@ export default {
 }
 .w-25 {
   width: 30% !important;
+}
+.infoText {
+  font-size: 20px;
 }
 </style>
