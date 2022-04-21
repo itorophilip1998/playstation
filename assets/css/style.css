@@ -1,0 +1,24 @@
+input,
+textarea,
+select {
+  border: 0px !important;
+  font-size: 17px;
+  font-family: consolas;
+  background: transparent !important;
+}
+.border-none {
+  border: none !important;
+}
+:focus-visible {
+  outline: none;
+}
+.fa {
+  background: transparent !important;
+}
+.rounded-x {
+  border-radius: 10px;
+}
+
+.card-img-top {
+  height: 140px !important;
+}

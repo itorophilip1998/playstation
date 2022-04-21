@@ -1,0 +1,38 @@
+{
+  "name": "cottage-patient",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt ",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/firebase": "^8.1.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "bitcoin-conversion": "^0.3.0",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.19.3",
+    "cryptocurrency-unit-convert": "^1.2.8",
+    "easy-js-camera": "^2.1.0",
+    "easy-vue-camera": "^1.0.5",
+    "firebase": "^9.6.1",
+    "nuxt": "^2.15.8",
+    "simple-vue-camera": "^1.0.2",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vue-web-cam": "^1.9.0",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1"
+  }
+}
